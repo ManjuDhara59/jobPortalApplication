@@ -1,0 +1,96 @@
+
+.login-page {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.content-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 900px;
+    width: 100%;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+    width: 250px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-container {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #007bff;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 16px;
+}
+
+.login-button,
+.signup-button,
+.admin-login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-login-button {
+    background-color: #28a745; 
+}
+
+.login-button:hover,
+.signup-button:hover,
+.admin-login-button:hover {
+    background-color: #0056b3;
+}
+
+
+.employer-card {
+    background: linear-gradient(135deg, #fd868c 0%, #ff5e62 100%);
+}
+
+.job-seeker-card {
+    background: linear-gradient(135deg, #99f2c8 0%, #8acfea 100%); 
+}
+
+.admin-card {
+    background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
+}

@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Job Portal Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Job Portal Application! This application serves as a platform for connecting job seekers with employers, facilitating job postings, applications, and more.
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+To set up the Job Portal Application frontend, follow these steps:
 
-### `npm start`
+1. Clone this repository to your local machine:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+     
+    git clone https://github.com/ManjuDhara59/jobPortal
+     
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
 
-### `npm test`
+     
+    cd my-app
+     
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Install dependencies using npm:
 
-### `npm run build`
+     
+    npm install
+     
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For the backend setup, please ensure that you have a database configured and running. Then, use SQL insert commands to populate the necessary data. For example, to insert admin credentials:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
+To use the Job Portal Application, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1) Admin Setup: After inserting admin credentials, log in as an admin. Set up subscription plans for employers.
 
-### `npm run eject`
+ use this sql command to insert the data
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ INSERT INTO admin (username, password, fullname, email, phone, otp)
+ VALUES ('admin', 'password123', 'Admin User', 'admin@example.com', '1234567890', '123456');
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2) start the react application using below command
+   npm start
+3) Employer Signup and Approval: Employers need to sign up and wait for admin approval. Admin generates credentials for approved employers. Employers can then log in and post job details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4) Job Seeker Signup and Job Search: Job seekers can sign up and start applying for jobs posted by approved employers.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Libraries/Frameworks Used
+The Job Portal Application frontend utilizes the following libraries/frameworks:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React: A JavaScript library for building user interfaces.
+React Router DOM: Declarative routing for React applications.
+Axios: Promise-based HTTP client for making API requests.
+Framer Motion: Animation library for React components.
+React Icons: Library for popular icon sets as React components.
+React Toastify: Notification system for React applications.
+Emotion: CSS-in-JS library for styling React components.
+Material-UI: React components for faster and easier web development.
+Semantic UI: CSS framework for styling user interfaces.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+For backend testing, the application utilizes Jacoco for code coverage reports. Run tests and generate reports as follows:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1) Navigate to profiles > jobportal > lifestyle.
+2) Select "clean and test" to run tests.
+3) Find code coverage reports under target/site/jacoco/index.html.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

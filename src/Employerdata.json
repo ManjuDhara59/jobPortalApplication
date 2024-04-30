@@ -1,0 +1,24 @@
+[
+    {
+      "fullName": "John Doe",
+      "companyName": "ABC Corporation",
+      "phoneNumber": "123-456-7890",
+      "companyMail": "john.doe@abccorp.com",
+      "subscriptionPlan": "Premium"
+    },
+    {
+      "fullName": "Jane Smith",
+      "companyName": "XYZ Industries",
+      "phoneNumber": "987-654-3210",
+      "companyMail": "jane.smith@xyzindustries.com",
+      "subscriptionPlan": "Standard"
+    },
+    {
+      "fullName": "Michael Johnson",
+      "companyName": "123 Enterprises",
+      "phoneNumber": "456-789-0123",
+      "companyMail": "michael.johnson@123enterprises.com",
+      "subscriptionPlan": "Basic"
+    }
+  ]
+  

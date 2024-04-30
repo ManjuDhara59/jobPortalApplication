@@ -1,0 +1,97 @@
+
+
+.job-status-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ededf5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.content {
+    background-color: #f1f1ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.job-details {
+    margin-bottom: 20px;
+    
+}
+
+.job-details h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.status-flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.status-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative; 
+}
+
+.status-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    margin-right: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.status-label {
+    font-weight: bold;
+    color: #000;
+}
+
+.arrow {
+    margin: 0 20px;
+    color: #000;
+}
+
+.status-item.active .status-dot {
+    background-color: #4CAF50; 
+}
+
+.status-item.active .status-label {
+    color: #4CAF50; }
+
+.status-item.active .arrow.active {
+    color: #4CAF50; 
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #666;
+}
+
+.rejected-status{
+    color: #F44336;
+}
