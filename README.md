@@ -46,15 +46,15 @@ To use the Job Portal Application, follow these steps:
 ## Libraries/Frameworks Used
 The Job Portal Application frontend utilizes the following libraries/frameworks:
 
-React: A JavaScript library for building user interfaces.
-React Router DOM: Declarative routing for React applications.
-Axios: Promise-based HTTP client for making API requests.
-Framer Motion: Animation library for React components.
-React Icons: Library for popular icon sets as React components.
-React Toastify: Notification system for React applications.
-Emotion: CSS-in-JS library for styling React components.
-Material-UI: React components for faster and easier web development.
-Semantic UI: CSS framework for styling user interfaces.
+- React: A JavaScript library for building user interfaces.
+- React Router DOM: Declarative routing for React applications.
+- Axios: Promise-based HTTP client for making API requests.
+- Framer Motion: Animation library for React components.
+- React Icons: Library for popular icon sets as React components.
+- React Toastify: Notification system for React applications.
+- Emotion: CSS-in-JS library for styling React components.
+- Material-UI: React components for faster and easier web development.
+- Semantic UI: CSS framework for styling user interfaces.
 
 
 For backend testing, the application utilizes Jacoco for code coverage reports. Run tests and generate reports as follows:
