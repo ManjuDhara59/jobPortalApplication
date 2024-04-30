@@ -9,7 +9,7 @@ To set up the Job Portal Application frontend, follow these steps:
 1. Clone this repository to your local machine:
 
      
-    git clone https://github.com/ManjuDhara59/jobPortal
+    git clone https://github.com/ManjuDhara59/jobPortalApplication
      
 
 2. Navigate to the project directory:
